@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="SCAOContext">
+  <DataContextMoniker Name="/SCAOContextDataContext" />
+  <nestedChildShapes>
+    <classShape Id="71955a2a-d069-4c32-8e4c-a8d2f627fe91" absoluteBounds="1, 1, 2, 3.1170068359375">
+      <DataClassMoniker Name="/SCAOContextDataContext/EMP" />
+      <nestedChildShapes>
+        <elementListCompartment Id="c6887a86-f625-4ccb-9857-c5d705464135" absoluteBounds="1.0149999999999997, 1.46, 1.9700000000000002, 2.5570068359375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="0b70b195-dd4f-410b-bbc7-8fbd368cef0c" absoluteBounds="4.375, 1, 2, 6.9630354817708326">
+      <DataClassMoniker Name="/SCAOContextDataContext/EVENTS" />
+      <nestedChildShapes>
+        <elementListCompartment Id="2735b6f8-24b4-4a93-88f3-9cd2ec83a735" absoluteBounds="4.39, 1.46, 1.9700000000000002, 6.403035481770833" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>

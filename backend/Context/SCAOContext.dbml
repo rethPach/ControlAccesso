@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="AccessControl" Class="SCAOContextDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=NPACHECO-PC;Initial Catalog=AccessControl;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="AccessControlConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EMP" Member="EMP">
+    <Type Name="EMP">
+      <Column Name="ID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LASTNAME" Type="System.String" DbType="NVarChar(64) NOT NULL" CanBeNull="false" />
+      <Column Name="FIRSTNAME" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="MIDNAME" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+      <Column Name="SSNO" Type="System.String" DbType="NVarChar(13)" CanBeNull="true" />
+      <Column Name="LASTCHANGED" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="VISITOR" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ALLOWEDVISITORS" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="ASSET_GROUPID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LNL_DBID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="GUARD" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="SEGMENTID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EVENTS" Member="EVENTS">
+    <Type Name="EVENTS">
+      <Column Name="SERIALNUM" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EVENTIME" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="DEVID" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="INPUTDEVID" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="EVENTTYPE" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="EVENTID" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="EVENTDATA" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="CARDNUM" Type="System.Int64" DbType="BigInt" CanBeNull="true" />
+      <Column Name="MACHINE" Type="System.Int16" DbType="SmallInt NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="EMPID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="INPUTARG" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="TRIGGER_EVENT" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FUNCLIST" Type="System.Int16" DbType="SmallInt" CanBeNull="true" />
+      <Column Name="ASSETID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EVENT_PARAMID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CALLED_STATION" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TRANSMITTERID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TRANSMITTER_INPUTID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ISSUECODE" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="WRKSTATIONID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EVENT_TEXT" Type="System.String" DbType="NVarChar(2000)" CanBeNull="true" />
+      <Column Name="RECEIVERID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LINENUM" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AREAID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="USERID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EVENTCODE" Type="System.String" DbType="NVarChar(10)" CanBeNull="true" />
+      <Column Name="LNL_DBID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SEGMENTID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="AREAAPBID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="ALARMMASKGROUPID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="EVENT_TIME_UTC" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="CARD_EXTENDED_ID" Type="System.String" DbType="NVarChar(64)" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>
